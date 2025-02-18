@@ -16,10 +16,10 @@
 # print (res)
 
 
-link = "https://www.google.com/get_the_data/12340"
-link1 = link.split("/")
-print (link1)
-print (link1[3])
+# link = "https://www.google.com/get_the_data/12340"
+# link1 = link.split("/")
+# print (link1)
+# print (link1[3])
 
 
 # fruit = "apple"
@@ -40,23 +40,23 @@ print (link1[3])
 # for fruit in range (0 , len(lst_v)):
 #     print (lst_v[fruit]) 
 
-# lst_1 = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
-# lst_2 = ["cherry", "orange", "carrot", "cucumber", "tomato", "pepper" , "melon" , "mango"]
+lst_1 = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+lst_2 = ["cherry", "orange", "carrot", "cucumber", "tomato", "pepper" , "melon" , "mango"]
 
-# # resuld = []
-# # for fruit in lst_2: 
-# #     if fruit not in lst_1:
-# #         lst_1.append(fruit)
-# # print (lst_1)
-# set_list = set(lst_1 + lst_2)
-# # print (set_list)
-# # list_list = list (set(set_list))
-# dick_list  = sorted(set_list , reverse = True)
+resuld = []
+for fruit in lst_2: 
+    if fruit not in lst_1:
+        lst_1.append(fruit)
+print (lst_1)
+set_list = set(lst_1 + lst_2)
+print (set_list)
+list_list = list (set(set_list))
+dick_list  = sorted(set_list , reverse = True)
 
-# print (dick_list) 
+print (dick_list) 
  
-n_num = [1, 2 ,3 , 4 ]
-p_num = [-1 , -2 , -3 , -4]
+# n_num = [1, 2 ,3 , 4 ]
+# p_num = [-1 , -2 , -3 , -4]
 # sum_p_num = sum (p_num)
 # sum_n_num = sum (n_num)
 
@@ -67,4 +67,4 @@ p_num = [-1 , -2 , -3 , -4]
 # for num2 in n_num:
 #     result[1] += num2
 # print (result )
-print (sum(p_num ) , sum (n_num))
+# print (sum(p_num ) , sum (n_num))
