@@ -16,10 +16,10 @@
 # print (res)
 
 
-# link = "https://www.google.com/get_the_data/12340"
-# link1 = link.split("/")
-# print (link1)
-# print (link1[3])
+link = "https://www.google.com/get_the_data/12340"
+link1 = link.split("/")
+print (link1)
+print (link1[3])
 
 
 # fruit = "apple"
